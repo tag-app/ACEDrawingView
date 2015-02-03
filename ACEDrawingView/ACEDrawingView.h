@@ -44,6 +44,7 @@ typedef enum {
 
 @property (nonatomic, assign) ACEDrawingToolType drawTool;
 @property (nonatomic, assign) id<ACEDrawingViewDelegate> delegate;
+@property (nonatomic, strong) NSMutableArray *pathArray;
 
 // public properties
 @property (nonatomic, strong) UIColor *lineColor;
